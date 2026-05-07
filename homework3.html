@@ -10,134 +10,189 @@
 
   <title>Homework 3 - Depth of Field</title>
 
-</head>
+  <style>
+    
+    body {
+      background: #faf7f0; 
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 0 auto;  
+      background: white;
+      padding: 40px;
+      border-radius: 20px; 
+    }
+    
+    h1 {
+      color: #8b7355;  
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 30px;
+      padding-bottom: 15px;
+      border-bottom: 2px solid #e8dcca;
+    }
+    
+    h2 {
+      color: #8b7355;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #e8dcca;
+    }
+    
+    p {
+      color: #4a3b2c;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    
+    table {
+      width: 100%;
+      margin: 20px 0;
+      background: #fefcf8;
+      border-radius: 16px;
+    }
+    
+    td, th {
+      padding: 15px;
+      vertical-align: top;
+    }
+    
+    th {
+      color: #8b7355;
+      font-size: 18px;
+      font-weight: bold;
+      background: #f5f0e8;
+      padding: 12px;
+      border-radius: 10px;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 10px;
+    }
+    
+    td p {
+      font-size: 14px;
+      color: #6b5a48;
+      margin-top: 10px;
+    }
+    
+    .back-link {
+      display: inline-block;
+      background: #f0ebe1;
+      color: #8b7355;
+      text-decoration: none;
+      padding: 12px 24px;
+      margin-top: 20px;
+      border-radius: 10px;
+      font-weight: bold;
+      text-align: center;
+    }
+    
+    .back-link:hover {
+      background: #d4c5b0;
+    }
+    
+    @media (max-width: 700px) {
+      .container {
+        padding: 20px;
+      }
 
+      
+      td, th {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
 
 <body>
 
+<div class="container">
   <h1>Homework 3: Depth of Field</h1>
 
-
   <p>
-
     For Homework 3, I posted 4 JPG images total on this single page (homework3.html):
-
     a shallow depth of field photo, a deep depth of field photo, a Photoshop blur version,
-
     and the original image used for the blur comparison. All images are under 2 MB and saved
-
     in the <b>images</b> folder.
-
   </p>
-
 
   <h2>1 & 2: In-camera shallow vs. deep depth of field</h2>
 
-
-  <table role="presentation" style="border-collapse:separate;border-spacing:12px;">
-
+  <table role="presentation">
     <tr>
-
-      <th>Shallow DoF</th>
-
-      <th>Deep DoF</th>
-
+      <th>📷 Shallow DoF</th>
+      <th>📷 Deep DoF</th>
     </tr>
-
     <tr>
-
       <td style="vertical-align:top;text-align:center;">
-
         <img src="image/shallow.jpg" alt="Shallow Depth of Field" width="300" />
-
         <p>
-
           Settings: f/3.5, 1/5s, ISO 200. Subject is sharp and background is blurred.
-
         </p>
-
       </td>
-
       <td style="vertical-align:top;text-align:center;">
-
         <img src="image/deep.jpg" alt="Deep Depth of Field" width="300" />
-
         <p>
-
           Settings: f/14, 1/15s, ISO 3200. Foreground and background appear sharp.
-
         </p>
-
       </td>
-
     </tr>
-
   </table>
-
 
   <h2>3 & 4: Photoshop blur vs. original image (comparison)</h2>
 
-
-  <table role="presentation" style="border-collapse:separate;border-spacing:12px;">
-
+  <table role="presentation">
     <tr>
-
-      <th>Photoshop Blur (Blur Gallery)</th>
-
-      <th>Original</th>
-
+      <th>🎨 Photoshop Blur (Blur Gallery)</th>
+      <th>📸 Original</th>
     </tr>
-
     <tr>
-
       <td style="vertical-align:top;text-align:center;">
-
         <img src="image/photoshopblur.jpg" alt="Photoshop shallow depth of field using Blur Gallery" width="300" />
-
         <p>
-
           I used Filter &gt; Blur Gallery &gt; Field Blur to blur the background while keeping the subject sharp.
-
         </p>
-
       </td>
-
       <td style="vertical-align:top;text-align:center;">
-
         <img src="image/original.jpg" alt="Original image used for Photoshop blur comparison" width="300" />
-
         <p>
-
           This is the original image before applying the Blur Gallery filter.
-
         </p>
-
       </td>
-
     </tr>
-
   </table>
 
-
   <h2>Reflection</h2>
+  
+  <p>
+    For this assignment, I photographed a still-life scene on a vanity table, featuring a decorative lamp, flowers, a mirror, and personal objects. I chose this subject because it allowed me to clearly see how depth of field affects the relationship between the main subject and the surrounding environment. The setting was indoors with warm, low light, which also made exposure adjustments important.
+  </p>
+  
+  <p>
+    To compare shallow and deep depth of field, I took two photographs with the same composition but different aperture settings. For the shallow depth of field image, I used a wide aperture (around f/2.8), which resulted in the foreground subject appearing sharp while the background became soft and blurred. This created a more intimate and dreamy feeling, drawing attention to the decorative lamp and flowers. For the deep depth of field image, I used a smaller aperture (around f/11), which kept both the foreground and background in focus, allowing the viewer to see more details of the entire scene.
+  </p>
+  
+  <p>
+    I used the deep depth of field image as my base image for editing. First, I applied the Camera Raw Filter to adjust exposure, contrast, highlights, and shadows. I also checked clipping warnings to avoid losing detail in the highlights and shadows, and used the straighten tool to ensure the image was properly aligned. These adjustments helped balance the image while maintaining its warm atmosphere.
+  </p>
+  
+  <p>
+    After that, I used Filter &gt; Blur Gallery &gt; Field Blur to create an artificial shallow depth of field. By selectively blurring the background and keeping the main subject sharp, I was able to simulate the effect of a wide aperture digitally. Through this process, I learned how aperture affects depth of field in-camera and how Photoshop tools can be used to recreate similar visual effects intentionally.
+  </p>
 
   <p>
-For this assignment, I photographed a still-life scene on a vanity table, featuring a decorative lamp, flowers, a mirror, and personal objects. I chose this subject because it allowed me to clearly see how depth of field affects the relationship between the main subject and the surrounding environment. The setting was indoors with warm, low light, which also made exposure adjustments important.
+    <a href="index.html" class="back-link">← Back to Homepage</a>
   </p>
-  <p>
-To compare shallow and deep depth of field, I took two photographs with the same composition but different aperture settings. For the shallow depth of field image, I used a wide aperture (around f/2.8), which resulted in the foreground subject appearing sharp while the background became soft and blurred. This created a more intimate and dreamy feeling, drawing attention to the decorative lamp and flowers. For the deep depth of field image, I used a smaller aperture (around f/11), which kept both the foreground and background in focus, allowing the viewer to see more details of the entire scene.
-  </p>
-  <p>
-I used the deep depth of field image as my base image for editing. First, I applied the Camera Raw Filter to adjust exposure, contrast, highlights, and shadows. I also checked clipping warnings to avoid losing detail in the highlights and shadows, and used the straighten tool to ensure the image was properly aligned. These adjustments helped balance the image while maintaining its warm atmosphere.
-  </p>
-  <p>
-After that, I used Filter > Blur Gallery > Field Blur to create an artificial shallow depth of field. By selectively blurring the background and keeping the main subject sharp, I was able to simulate the effect of a wide aperture digitally. Through this process, I learned how aperture affects depth of field in-camera and how Photoshop tools can be used to recreate similar visual effects intentionally.
-</p>
-  <p>
-
-    <a href="index.html">Back to Homepage</a>
-
-  </p>
+</div>
 
 </body>
 
